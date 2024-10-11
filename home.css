@@ -1,0 +1,38 @@
+body{
+    background-image: url(playbgi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-menubox{
+    max-width: 100vh;
+    max-height: 100vh;
+}
+.main-menubox{
+    display: flex;
+    color: aliceblue;
+}
+.profile{
+    position: relative;
+    top: 35px;
+    left: 5px;
+}
+.sub-play{
+    position: relative;
+    top: 220px;
+    left: 300px;
+}
+#sub-heads{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+}
+.sub-head{
+    margin-bottom:500px;
+    margin-left:end;
+    display: flex;
+    padding: 20px;
+}
+
+.sub-head:hover{
+    background-color: rgb(90, 151, 198);
+}
